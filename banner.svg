@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="João Pedro Lima de Jesus — Estudante de Ciência da Computação, Backend e IA aplicada">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e0b3d"/>
+      <stop offset="0.55" stop-color="#3b1a78"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grade" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#fundo)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grade)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#brilho)"/>
+
+  <!-- trecho de código decorativo à direita -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#ddd6fe">
+    <text x="760" y="92" fill-opacity="0.8"><tspan fill="#f0abfc">const</tspan> joao = {</text>
+    <text x="784" y="122" fill-opacity="0.8">foco: <tspan fill="#a7f3d0">"backend + IA"</tspan>,</text>
+    <text x="784" y="152" fill-opacity="0.8">stack: [<tspan fill="#a7f3d0">"Java"</tspan>, <tspan fill="#a7f3d0">"Node"</tspan>, <tspan fill="#a7f3d0">"Python"</tspan>],</text>
+    <text x="784" y="182" fill-opacity="0.8">buscando: <tspan fill="#a7f3d0">"estágio"</tspan>,</text>
+    <text x="760" y="212" fill-opacity="0.8">};</text>
+  </g>
+
+  <!-- texto principal -->
+  <g font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="64" y="100" font-size="16" font-weight="600" fill="#c4b5fd" letter-spacing="3">OLÁ, EU SOU O</text>
+    <text x="64" y="158" font-size="50" font-weight="800" fill="#ffffff">João Pedro</text>
+    <text x="64" y="200" font-size="20" fill="#ede9fe">Estudante de Ciência da Computação · UTFPR</text>
+    <rect x="64" y="226" width="290" height="36" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#c4b5fd" stroke-opacity="0.5"/>
+    <circle cx="86" cy="244" r="5" fill="#4ade80"/>
+    <text x="100" y="250" font-size="16" font-weight="600" fill="#ffffff">Aberto a estágio em backend</text>
+  </g>
+</svg>
