@@ -1,41 +1,56 @@
-<img src="banner.svg" alt="João Pedro — Estudante de Ciência da Computação, aberto a estágio em backend" width="100%">
+<img src="banner.svg" alt="João Pedro — Backend & IA Aplicada (Node.js, TypeScript, PostgreSQL, Docker)" width="100%">
 
-Estudo Ciência da Computação na UTFPR (Campo Mourão) e sou técnico em Análise e Desenvolvimento de Sistemas. Gosto de backend e de colocar IA pra resolver problema de verdade, tipo atender cliente no WhatsApp sem inventar preço de produto.
+Estudo **Ciência da Computação na UTFPR** (Campo Mourão) e sou técnico em Análise e Desenvolvimento de Sistemas. Meu foco é **desenvolvimento Backend e IA aplicada** — construindo sistemas multi-tenant em produção, integrações com LLMs e ferramentas de verificação de segurança no banco de dados.
 
-Estou buscando **estágio em desenvolvimento backend** (remoto ou presencial).
+Estou buscando **estágio ou posição júnior em Desenvolvimento Backend / IA** (remoto ou presencial).
 
 🌐 **Portfólio:** [joaopedrolimadejesus95-beep.github.io](https://joaopedrolimadejesus95-beep.github.io)
 
-## Projetos em destaque
+---
 
-| Projeto | O que é | Stack |
+## 🚀 Projetos em Destaque
+
+| Projeto | O que faz | Stack Principal |
 |---|---|---|
-| [**Vendly**](https://github.com/joaopedrolimadejesus95-beep/vendly) · [site](https://meuvendly.com.br/) | Atendente de IA no WhatsApp pra restaurantes: recebe pedidos com base no cardápio real, controle de mesas e estoque, multiempresa. Em produção | Node.js · PostgreSQL · Docker · API da Anthropic |
-| [**Mentora**](https://github.com/joaopedrolimadejesus95-beep/MentoraPrototipo) | Hábitos e estudos com streak calculado pelo histórico real, níveis e XP | Java 21 · Spring Boot · PostgreSQL |
-| [**Sistema Acadêmico Web**](https://github.com/joaopedrolimadejesus95-beep/Sistema-Academico-WEB) · [ver no ar](https://sistema-academico-web.vercel.app) | Portais de aluno, professor e coordenação, evoluído de uma versão console em Java | JavaScript · HTML/CSS |
-| [**Genius IA**](https://github.com/joaopedrolimadejesus95-beep/genius.ia) | Chatbot com detecção de intenção: conversa, cálculos, jogo e análise de imagem | Python · Flask · API do Gemini |
-| [**Algoritmos JS**](https://github.com/joaopedrolimadejesus95-beep/algoritmos-js) · [ver no ar](https://joaopedrolimadejesus95-beep.github.io/algoritmos-js/) | Exercícios de lógica com testes e uma página interativa | JavaScript · Node test runner |
+| [**Vendly**](https://github.com/joaopedrolimadejesus95-beep/vendly) · [em produção](https://meuvendly.com.br/) | SaaS multi-empresa de atendimento via IA no WhatsApp para restaurantes: recebe pedidos validados contra o cardápio e estoque real no banco, gestão de mesas e impressão na cozinha. | `Node.js` · `PostgreSQL` · `Docker` · `LLMs` |
+| [**ATLAS Security Suite (v2)**](https://github.com/joaopedrolimadejesus95-beep/Atlas) | Framework de Red Team automatizado para SaaS Multi-Tenant e Agentes de IA: 3 baterias de ataque (17 sondas OWASP), veredito direto no PostgreSQL (*ground truth*), Evolution API simulada, CI/CD e 58 testes automatizados. | `Node.js` · `PostgreSQL` · `AppSec` · `AI Security` · `GitHub Actions` |
+| [**Genius IA**](https://github.com/joaopedrolimadejesus95-beep/genius.ia) | Assistente multimodal integrado à API do Gemini com roteamento de intenção e análise de imagens. | `IA / LLMs` · `Gemini API` · `Python` |
+| [**Mentora**](https://github.com/joaopedrolimadejesus95-beep/MentoraPrototipo) | API de rastreamento de hábitos e estudos com cálculo de *streak* baseado em histórico transacional, níveis e XP. | `PostgreSQL` · `REST API` · `Java / Spring` |
 
-Em desenvolvimento: **ATLAS**, um red team do próprio bot do Vendly pra medir onde a IA erra ou quebra regra de negócio.
+---
 
-## Tecnologias
+## 🛠️ Stack & Tecnologias
 
-**Uso em projetos**
-
+### Foco Principal
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,js,java,spring,python,flask,postgres,docker,linux,git,html,css&perline=12" alt="Node.js, JavaScript, Java, Spring, Python, Flask, PostgreSQL, Docker, Linux, Git, HTML, CSS">
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,postgres,docker,linux,git&perline=8" alt="Node.js, TypeScript, PostgreSQL, Docker, Linux, Git" />
 </p>
 
-**Estudando agora:** TypeScript · React · automação com IA · agentes de LLM
+- **Backend & Dados:** `Node.js` · `TypeScript` · `PostgreSQL` · `REST APIs` · `Autenticação JWT/HMAC` · `Isolamento Multi-Tenant`
+- **Infra & Qualidade:** `Docker` · `GitHub Actions (CI/CD)` · `Testes Automatizados (Node Test Runner)` · `Linux`
+- **Inteligência Artificial:** `Integração de LLMs em Produção` · `Prompt Engineering & Guardrails` · `AI Red Teaming (OWASP LLM Top 10)`
 
-## Eventos
+### Estudando & Explorando na Prática
+<p>
+  <img src="https://skillicons.dev/icons?i=postman,aws&perline=8" alt="Postman, AWS" />
+</p>
 
-- **NASA Space Apps Challenge 2024**: software educacional de prevenção e combate a incêndios nas escolas (documentação e pitch)
-- **Ideathon Sebrae 2025**: líder da equipe, com uma lixeira que troca recicláveis por fichas para livros
-- **NASA Space Apps Challenge 2026**: inscrito para novembro
+- `Postman` (testes e documentação de coleções de API)
+- `AWS` (fundamentos de nuvem e deploy)
+- `LLMs & Agentes Autônomos` (tool calling, RAG seguro e validação determinística no banco)
+- `n8n` (orquestração de workflows, webhooks e automações com IA)
 
-## Contato
+---
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-joaopedrolimadejesus95--beep.github.io-6d28d9?style=for-the-badge&logo=githubpages&logoColor=white)](https://joaopedrolimadejesus95-beep.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-João%20Pedro-6d28d9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-jesus-jpldj)
-[![E-mail](https://img.shields.io/badge/E--mail-joaopedrolimajpldj%40gmail.com-6d28d9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrolimajpldj@gmail.com)
+## 🏆 Eventos & Hackathons
+
+- **Ideathon Sebrae 2025:** Líder da equipe no desenvolvimento de solução inteligente de reciclagem gamificada.
+- **NASA Space Apps Challenge (2024 / 2026):** Desenvolvimento de software educacional de prevenção de incêndios e resolução de desafios globais.
+
+---
+
+## 📫 Contato
+
+[![Portfólio](https://img.shields.io/badge/Portfólio-joaopedrolimadejesus95--beep.github.io-10B981?style=for-the-badge&logo=githubpages&logoColor=white)](https://joaopedrolimadejesus95-beep.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-João%20Pedro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-jesus-17b798322/)
+[![E-mail](https://img.shields.io/badge/E--mail-joaopedrolimajpldj%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrolimajpldj@gmail.com)
