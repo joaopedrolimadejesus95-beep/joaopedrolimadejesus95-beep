@@ -1,56 +1,46 @@
-<img src=""C:\Users\joao lima\Downloads\banner.svg""100%">
+<div align="center">
+  <img src="./banner.svg" width="100%" alt="Banner João Pedro — Backend & AI Engineer" />
+</div>
 
-Estudo **Ciência da Computação na UTFPR** (Campo Mourão) e sou técnico em Análise e Desenvolvimento de Sistemas. Meu foco é **desenvolvimento Backend e IA aplicada** — construindo sistemas multi-tenant em produção, integrações com LLMs e ferramentas de verificação de segurança no banco de dados.
+<br/>
 
-Estou buscando **estágio ou posição júnior em Desenvolvimento Backend / IA** (remoto ou presencial).
+## Sobre mim
 
-🌐 **Portfólio:** [joaopedrolimadejesus95-beep.github.io](https://joaopedrolimadejesus95-beep.github.io)
+Estudante de **Ciência da Computação na UTFPR**, com foco em **Desenvolvimento Backend, Arquitetura de Sistemas, Automação com IA e Segurança de Aplicações (AppSec)**. Construo sistemas reais de ponta a ponta — de plataformas SaaS multi-tenant a frameworks de auditoria automatizada sem dependências externas.
 
----
-
-## 🚀 Projetos em Destaque
-
-| Projeto | O que faz | Stack Principal |
-|---|---|---|
-| [**Vendly**](https://github.com/joaopedrolimadejesus95-beep/vendly) · [em produção](https://meuvendly.com.br/) | SaaS multi-empresa de atendimento via IA no WhatsApp para restaurantes: recebe pedidos validados contra o cardápio e estoque real no banco, gestão de mesas e impressão na cozinha. | `Node.js` · `PostgreSQL` · `Docker` · `LLMs` |
-| [**ATLAS Security Suite (v2)**](https://github.com/joaopedrolimadejesus95-beep/Atlas) | Framework de Red Team automatizado para SaaS Multi-Tenant e Agentes de IA: 3 baterias de ataque (17 sondas OWASP), veredito direto no PostgreSQL (*ground truth*), Evolution API simulada, CI/CD e 58 testes automatizados. | `Node.js` · `PostgreSQL` · `AppSec` · `AI Security` · `GitHub Actions` |
-| [**Genius IA**](https://github.com/joaopedrolimadejesus95-beep/genius.ia) | Assistente multimodal integrado à API do Gemini com roteamento de intenção e análise de imagens. | `IA / LLMs` · `Gemini API` · `Python` |
-| [**Mentora**](https://github.com/joaopedrolimadejesus95-beep/MentoraPrototipo) | API de rastreamento de hábitos e estudos com cálculo de *streak* baseado em histórico transacional, níveis e XP. | `PostgreSQL` · `REST API` · `Java / Spring` |
+- 🎯 **Buscando:** Estágio ou vaga Júnior em **Backend / Engenharia de Software / IA**
+- ⚡ **Foco atual:** `Node.js` · `TypeScript` · `PostgreSQL` · `Docker` · `IA`
+- 🔥 **Estudando & explorando:** `AWS` · `LLMs` · `n8n` · `Postman`
 
 ---
 
-## 🛠️ Stack & Tecnologias
+## Stack & Ferramentas
 
 ### Foco Principal
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,ts,postgres,docker,linux,git&perline=8" alt="Node.js, TypeScript, PostgreSQL, Docker, Linux, Git" />
-</p>
+![Node.js](https://img.shields.io/badge/Node.js-090D16?style=for-the-badge&logo=nodedotjs&logoColor=10B981)
+![TypeScript](https://img.shields.io/badge/TypeScript-090D16?style=for-the-badge&logo=typescript&logoColor=3B82F6)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-090D16?style=for-the-badge&logo=postgresql&logoColor=A78BFA)
+![Docker](https://img.shields.io/badge/Docker-090D16?style=for-the-badge&logo=docker&logoColor=38BDF8)
+![IA](https://img.shields.io/badge/Agentes_de_IA-090D16?style=for-the-badge&logo=openai&logoColor=FBBF24)
 
-- **Backend & Dados:** `Node.js` · `TypeScript` · `PostgreSQL` · `REST APIs` · `Autenticação JWT/HMAC` · `Isolamento Multi-Tenant`
-- **Infra & Qualidade:** `Docker` · `GitHub Actions (CI/CD)` · `Testes Automatizados (Node Test Runner)` · `Linux`
-- **Inteligência Artificial:** `Integração de LLMs em Produção` · `Prompt Engineering & Guardrails` · `AI Red Teaming (OWASP LLM Top 10)`
-
-### Estudando & Explorando na Prática
-<p>
-  <img src="https://skillicons.dev/icons?i=postman,aws&perline=8" alt="Postman, AWS" />
-</p>
-
-- `Postman` (testes e documentação de coleções de API)
-- `AWS` (fundamentos de nuvem e deploy)
-- `LLMs & Agentes Autônomos` (tool calling, RAG seguro e validação determinística no banco)
-- `n8n` (orquestração de workflows, webhooks e automações com IA)
+### Estudando & Aprendendo
+![AWS](https://img.shields.io/badge/AWS-090D16?style=for-the-badge&logo=amazonaws&logoColor=F59E0B)
+![LLMs](https://img.shields.io/badge/LLMs_&_Prompt_Sec-090D16?style=for-the-badge&logo=sparkles&logoColor=C084FC)
+![n8n](https://img.shields.io/badge/n8n_Workflows-090D16?style=for-the-badge&logo=n8n&logoColor=F43F5E)
+![Postman](https://img.shields.io/badge/Postman-090D16?style=for-the-badge&logo=postman&logoColor=FB923C)
 
 ---
 
-## 🏆 Eventos & Hackathons
+## Projetos em Destaque
 
-- **Ideathon Sebrae 2025:** Líder da equipe no desenvolvimento de solução inteligente de reciclagem gamificada.
-- **NASA Space Apps Challenge (2024 / 2026):** Desenvolvimento de software educacional de prevenção de incêndios e resolução de desafios globais.
+| Projeto | Descrição | Stack |
+| :--- | :--- | :--- |
+| 🛡️ **[ATLAS](https://github.com/joaopedrolimadejesus95-beep/Atlas)** | **Framework de Red Team automatizado para SaaS e Agentes de IA.** Executa 3 baterias de ataque (Acesso/IDOR, XSS/Injeção e Prompt Injection em IA) validando o impacto real direto no PostgreSQL (* Ground Truth*), com zero falsos positivos, 58 testes automatizados e painel executivo offline-first. | `Node.js` `PostgreSQL` `AppSec` `AI Red Team` `GitHub Actions` |
+| 🛒 **[Vendly](https://github.com/joaopedrolimadejesus95-beep/Vendly)** | **Plataforma SaaS Multi-tenant de vendas e atendimento com Agente de IA no WhatsApp.** Gestão de pedidos, catálogo, autenticação JWT/RBAC e integração com LLMs. | `Node.js` `TypeScript` `PostgreSQL` `Docker` `IA` |
 
 ---
 
-## 📫 Contato
+## Contato
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-joaopedrolimadejesus95--beep.github.io-10B981?style=for-the-badge&logo=githubpages&logoColor=white)](https://joaopedrolimadejesus95-beep.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-João%20Pedro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-jesus-17b798322/)
-[![E-mail](https://img.shields.io/badge/E--mail-joaopedrolimajpldj%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrolimajpldj@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-090D16?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-090D16?style=for-the-badge&logo=github&logoColor=FAFAFA)](https://github.com/joaopedrolimadejesus95-beep)
