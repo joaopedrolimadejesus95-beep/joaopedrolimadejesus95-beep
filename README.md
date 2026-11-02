@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="Banner João Pedro — Backend & AI Engineer" />
+  <img src="./banner.svg?v=2" width="100%" alt="Banner João Pedro — Backend & AI Engineer" />
 </div>
 
 <br/>
@@ -35,12 +35,12 @@ Estudante de **Ciência da Computação na UTFPR**, com foco em **Desenvolviment
 
 | Projeto | Descrição | Stack |
 | :--- | :--- | :--- |
-| 🛡️ **[ATLAS](https://github.com/joaopedrolimadejesus95-beep/Atlas)** | **Framework de Red Team automatizado para SaaS e Agentes de IA.** Executa 3 baterias de ataque (Acesso/IDOR, XSS/Injeção e Prompt Injection em IA) validando o impacto real direto no PostgreSQL (* Ground Truth*), com zero falsos positivos, 58 testes automatizados e painel executivo offline-first. | `Node.js` `PostgreSQL` `AppSec` `AI Red Team` `GitHub Actions` |
+| 🛡️ **[ATLAS](https://github.com/joaopedrolimadejesus95-beep/Atlas)** | **Framework de Red Team automatizado para SaaS e Agentes de IA.** Executa 3 baterias de ataque (Acesso/IDOR, XSS/Injeção e Prompt Injection em IA) validando o impacto real direto no PostgreSQL (*Ground Truth*), com zero falsos positivos, 58 testes automatizados e painel executivo offline-first. | `Node.js` `PostgreSQL` `AppSec` `AI Red Team` `GitHub Actions` |
 | 🛒 **[Vendly](https://github.com/joaopedrolimadejesus95-beep/Vendly)** | **Plataforma SaaS Multi-tenant de vendas e atendimento com Agente de IA no WhatsApp.** Gestão de pedidos, catálogo, autenticação JWT/RBAC e integração com LLMs. | `Node.js` `TypeScript` `PostgreSQL` `Docker` `IA` |
 
 ---
 
 ## Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-090D16?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-090D16?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-jesus-jpldj)
 [![GitHub](https://img.shields.io/badge/GitHub-090D16?style=for-the-badge&logo=github&logoColor=FAFAFA)](https://github.com/joaopedrolimadejesus95-beep)
