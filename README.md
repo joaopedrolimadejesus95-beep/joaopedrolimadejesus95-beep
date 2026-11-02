@@ -6,7 +6,7 @@
 
 ## Sobre mim
 
-Estudante de **Ciência da Computação na UTFPR**, com foco em **Desenvolvimento Backend, Arquitetura de Sistemas, Automação com IA e Segurança de Aplicações (AppSec)**. Construo sistemas reais de ponta a ponta — de plataformas SaaS multi-tenant a frameworks de auditoria automatizada sem dependências externas.
+Estudante de Ciência da Computação na UTFPR, com foco em Desenvolvimento Backend, Arquitetura de Sistemas, Automação com IA e Segurança de Aplicações (AppSec). Construo sistemas reais de ponta a ponta — de plataformas SaaS multi-tenant a frameworks de auditoria automatizada sem dependências externas.
 
 - 🎯 **Buscando:** Estágio ou vaga Júnior em **Backend / Engenharia de Software / IA**
 - ⚡ **Foco atual:** `Node.js` · `TypeScript` · `PostgreSQL` · `Docker` · `IA`
