@@ -1,4 +1,4 @@
-<img src="banner.svg" alt="João Pedro — Backend & IA Aplicada (Node.js, TypeScript, PostgreSQL, Docker)" width="100%">
+<img src=""C:\Users\joao lima\Downloads\banner.svg""100%">
 
 Estudo **Ciência da Computação na UTFPR** (Campo Mourão) e sou técnico em Análise e Desenvolvimento de Sistemas. Meu foco é **desenvolvimento Backend e IA aplicada** — construindo sistemas multi-tenant em produção, integrações com LLMs e ferramentas de verificação de segurança no banco de dados.
 
