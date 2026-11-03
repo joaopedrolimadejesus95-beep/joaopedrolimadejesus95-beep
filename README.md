@@ -57,4 +57,4 @@ Estou buscando **estágio ou posição júnior em Desenvolvimento Backend / IA**
 
 [![Portfólio](https://img.shields.io/badge/Portfólio-joaopedrolimadejesus95--beep.github.io-10B981?style=for-the-badge&logo=githubpages&logoColor=white)](https://joaopedrolimadejesus95-beep.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-João%20Pedro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-jesus-17b798322/)
-[![E-mail](https://img.shields.io/badge/E--mail-joaopedrolimajpldj%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrolimajpldj@gmail.com)olimadejesus95-beep)
+[![E-mail](https://img.shields.io/badge/E--mail-joaopedrolimajpldj%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrolimajpldj@gmail.com)
