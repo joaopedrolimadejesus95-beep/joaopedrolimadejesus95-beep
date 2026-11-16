@@ -18,6 +18,7 @@ Estou buscando **estágio ou posição júnior em Desenvolvimento Backend / IA**
 |---|---|---|
 | [**Vendly**](https://github.com/joaopedrolimadejesus95-beep/vendly) · [em produção](https://meuvendly.com.br/) | SaaS multi-empresa de atendimento via IA no WhatsApp para restaurantes: recebe pedidos validados contra o cardápio e estoque real no banco, gestão de mesas e impressão na cozinha. | `Node.js` · `PostgreSQL` · `Docker` · `LLMs` |
 | [**ATLAS Security Suite (v2)**](https://github.com/joaopedrolimadejesus95-beep/Atlas) | Framework de Red Team automatizado para SaaS Multi-Tenant e Agentes de IA: 3 baterias de ataque (17 sondas OWASP), veredito direto no PostgreSQL (*ground truth*), Evolution API simulada, CI/CD e 58 testes automatizados. | `Node.js` · `PostgreSQL` · `AppSec` · `AI Security` · `GitHub Actions` |
+| [**AgroShield**](https://github.com/heitor1240/AgroShield) · *NASA Space Apps 2026* | Plataforma de decisão agronômica e prevenção de danos que funde satélites da NASA (POWER, SMAP, MODIS, SRTM), **Cadeia de Markov com Memória Agrícola**, dupla trava determinística da **EMBRAPA / IDR-Paraná** (anti-alucinação) e comunicação bidirecional via **SMS 2G offline** (49 testes automatizados). | `Node.js` · `TypeScript` · `React` · `PostgreSQL` · `NASA APIs` · `SMS 2G` |
 | [**Genius IA**](https://github.com/joaopedrolimadejesus95-beep/genius.ia) | Assistente multimodal integrado à API do Gemini com roteamento de intenção e análise de imagens. | `IA / LLMs` · `Gemini API` · `Python` |
 | [**Mentora**](https://github.com/joaopedrolimadejesus95-beep/MentoraPrototipo) | API de rastreamento de hábitos e estudos com cálculo de *streak* baseado em histórico transacional, níveis e XP. | `PostgreSQL` · `REST API` · `Java / Spring` |
 
@@ -48,8 +49,9 @@ Estou buscando **estágio ou posição júnior em Desenvolvimento Backend / IA**
 
 ## 🏆 Eventos & Hackathons
 
+- **NASA Space Apps Challenge 2026 (*Field Shift*):** Desenvolvimento do [**AgroShield**](https://github.com/heitor1240/AgroShield) — motor preditivo com dados orbitais da NASA, Cadeia de Markov com memória agrícola, trava determinística da EMBRAPA e alertas bidirecionais via SMS 2G para zonas rurais sem internet.
 - **Ideathon Sebrae 2025:** Líder da equipe no desenvolvimento de solução inteligente de reciclagem gamificada.
-- **NASA Space Apps Challenge (2024 / 2026):** Desenvolvimento de software educacional de prevenção de incêndios e resolução de desafios globais.
+- **NASA Space Apps Challenge 2024:** Desenvolvimento de software educacional de prevenção de incêndios e resolução de desafios globais.
 
 ---
 
