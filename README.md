@@ -1,22 +1,25 @@
 <div align="center">
-  <img src="./banner.svg?v=3" width="100%" alt="Banner João Pedro — Backend & AI Engineer" />
+  <img src="./assets/hero-banner.svg" width="100%" alt="Banner João Pedro Lima — Backend & IA" />
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/UTFPR-Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o-090A14?style=flat-square&labelColor=1B102E&color=C084FC" alt="UTFPR" />
-  <img src="https://img.shields.io/badge/Foco-Backend%20%26%20IA%20Aplicada-090A14?style=flat-square&labelColor=1B102E&color=F472B6" alt="Foco" />
-  <img src="https://img.shields.io/badge/Local-Campo%20Mour%C3%A3o%2C%20PR-090A14?style=flat-square&labelColor=1B102E&color=38BDF8" alt="Campo Mourão" />
+  <img src="https://img.shields.io/badge/UTFPR-Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o-7C3AED?style=flat-square&labelColor=130A26" alt="UTFPR" />
+  <img src="https://img.shields.io/badge/Foco-Backend%20%26%20IA%20Aplicada-9333EA?style=flat-square&labelColor=130A26" alt="Foco" />
+  <img src="https://img.shields.io/badge/Mindset-Code%20%E2%80%A2%20Build%20%E2%80%A2%20Secure-A855F7?style=flat-square&labelColor=130A26" alt="Mindset" />
 </p>
 
 <p align="center">
   <a href="https://joaopedrolimadejesus95-beep.github.io">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-joaopedrolimadejesus95--beep.github.io-10B981?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio" />
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-Visitar-7C3AED?style=flat-square&logo=githubpages&logoColor=white&labelColor=130A26" alt="Portfólio" />
   </a>
   <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-jesus-jpldj">
-    <img src="https://img.shields.io/badge/LinkedIn-Jo%C3%A3o%20Pedro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Conectar-9333EA?style=flat-square&logo=linkedin&logoColor=white&labelColor=130A26" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/joaopedrolimadejesus95-beep?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Reposit%C3%B3rios-A855F7?style=flat-square&logo=github&logoColor=white&labelColor=130A26" alt="GitHub" />
   </a>
   <a href="mailto:joaopedrolimajpldj@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-Contato-F472B6?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
+    <img src="https://img.shields.io/badge/E--mail-Contato-EC4899?style=flat-square&logo=gmail&logoColor=white&labelColor=130A26" alt="E-mail" />
   </a>
 </p>
 
@@ -34,28 +37,26 @@ Sou estudante de **Ciência da Computação na UTFPR** (Campo Mourão) e técnic
 <br/>
 
 <div align="center">
-  <img src="./assets/cat-walk.svg?v=1" width="100%" alt="Gato preto em pixel art andando sob o céu estrelado e pétalas de sakura" />
+  <img src="./assets/neko-walk.svg" width="100%" alt="Gato preto animado caminhando sob a lua crescente e pétalas de sakura" />
 </div>
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Linguagens, Backend & Infra
+### Linguagens & Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,py,java,postgres,sqlite,spring,flask,docker,linux,git,githubactions&perline=13&theme=dark" alt="Node.js, TypeScript, JavaScript, Python, Java, PostgreSQL, SQLite, Spring, Flask, Docker, Linux, Git, GitHub Actions" />
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,py,java,spring,flask&perline=8&theme=dark" alt="Node.js, TypeScript, JavaScript, Python, Java, Spring, Flask" />
 </p>
 
-- **Backend & APIs:** `Node.js` · `TypeScript` · `Python` · `Java 21` · `Spring Boot` · `Flask` · `REST APIs` · `Webhooks` · `Socket.io` · `Zod`
-- **Dados & Infra:** `PostgreSQL (transações & row lock)` · `SQLite` · `Docker` · `Linux` · `GitHub Actions (CI/CD)` · `Deploy em VPS`
+`Node.js` · `TypeScript` · `JavaScript` · `Python` · `Java 21` · `Spring Boot` · `Flask` · `REST APIs` · `Socket.io` · `Zod`
 
-### IA Aplicada, Segurança & Estudos Atuais
+### Banco de Dados, Infra & Segurança
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,postman,threejs,react,vscode&perline=8&theme=dark" alt="AWS, Postman, Three.js, React, VS Code" />
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,docker,linux,git,githubactions,aws,postman&perline=8&theme=dark" alt="PostgreSQL, SQLite, Docker, Linux, Git, GitHub Actions, AWS, Postman" />
 </p>
 
-- **IA & Guardrails:** `APIs Anthropic & Gemini` · `Tool Use / JSON Schema` · `Model Context Protocol (MCP)` · `Orquestração Multiagente (DAG)`
-- **AppSec & Explorando:** `AI Red Team (OWASP LLM & API Top 10)` · `AES-256-GCM / scrypt / Anti-SSRF` · `AWS Cloud` · `n8n`
+`PostgreSQL (row lock)` · `SQLite` · `Docker` · `Linux` · `GitHub Actions (CI/CD)` · `AI Red Team (OWASP)` · `MCP` · `AWS`
 
 ---
 
@@ -63,28 +64,28 @@ Sou estudante de **Ciência da Computação na UTFPR** (Campo Mourão) e técnic
 
 <p align="center">
   <a href="https://github.com/joaopedrolimadejesus95-beep/vendly">
-    <img src="./assets/projects/vendly.svg?v=1" width="48.8%" alt="Vendly — SaaS de IA no WhatsApp para restaurantes" />
+    <img src="./assets/projects/vendly.svg?v=2" width="48.8%" alt="Vendly — SaaS de IA no WhatsApp para restaurantes" />
   </a>
   <a href="https://github.com/joaopedrolimadejesus95-beep/Atlas">
-    <img src="./assets/projects/atlas.svg?v=1" width="48.8%" alt="ATLAS v2 — Framework de Red Team para SaaS e Agentes de IA" />
+    <img src="./assets/projects/atlas.svg?v=2" width="48.8%" alt="ATLAS v2 — Framework de Red Team para SaaS e Agentes de IA" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/heitor1240/AgroShield">
-    <img src="./assets/projects/agroshield.svg?v=1" width="48.8%" alt="AgroShield — Decisão agronômica com satélites da NASA e SMS 2G" />
+    <img src="./assets/projects/agroshield.svg?v=2" width="48.8%" alt="AgroShield — Decisão agronômica com satélites da NASA e SMS 2G" />
   </a>
   <a href="https://github.com/joaopedrolimadejesus95-beep/escritorio-de-agentes">
-    <img src="./assets/projects/ai-office.svg?v=1" width="48.8%" alt="AI Office Studio — Escritório 3D multiagente em DAG" />
+    <img src="./assets/projects/ai-office.svg?v=2" width="48.8%" alt="AI Office Studio — Escritório 3D multiagente em DAG" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/joaopedrolimadejesus95-beep/Commit-Guard">
-    <img src="./assets/projects/commitguard.svg?v=1" width="48.8%" alt="CommitGuard — DevSecOps CLI & GitHub Action com Gemini" />
+    <img src="./assets/projects/commitguard.svg?v=2" width="48.8%" alt="CommitGuard — DevSecOps CLI & GitHub Action com Gemini" />
   </a>
   <a href="https://github.com/joaopedrolimadejesus95-beep/MentoraPrototipo">
-    <img src="./assets/projects/mentora.svg?v=1" width="48.8%" alt="Mentora — API de hábitos e streak em Java 21 e Spring Boot" />
+    <img src="./assets/projects/mentora.svg?v=2" width="48.8%" alt="Mentora — API de hábitos e streak em Java 21 e Spring Boot" />
   </a>
 </p>
 
@@ -98,7 +99,7 @@ Sou estudante de **Ciência da Computação na UTFPR** (Campo Mourão) e técnic
 </p>
 
 <details>
-  <summary><strong>📂 Ver outros projetos e detalhes técnicos</strong></summary>
+  <summary><strong>📂 Ver outros projetos e destaques técnicos</strong></summary>
   <br/>
 
 | Projeto | O que faz | Stack | Link |
@@ -116,12 +117,12 @@ Sou estudante de **Ciência da Computação na UTFPR** (Campo Mourão) e técnic
 ## 📊 Estatísticas & Streak do GitHub
 
 <p align="center">
-  <img height="178" src="https://github-readme-stats.vercel.app/api?username=joaopedrolimadejesus95-beep&show_icons=true&count_private=true&hide_border=false&bg_color=090a14&title_color=f472b6&icon_color=c084fc&text_color=e2e8f0&border_color=3b1f5e&border_radius=12&locale=pt-br" alt="Estatísticas do GitHub de João Pedro" />
-  <img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopedrolimadejesus95-beep&layout=compact&langs_count=6&hide_border=false&bg_color=090a14&title_color=f472b6&text_color=e2e8f0&border_color=3b1f5e&border_radius=12&locale=pt-br" alt="Linguagens mais usadas no GitHub" />
+  <img height="178" src="https://github-readme-stats.vercel.app/api?username=joaopedrolimadejesus95-beep&show_icons=true&count_private=true&hide_border=false&bg_color=0b0618&title_color=c084fc&icon_color=f472b6&text_color=e2e8f0&border_color=581c87&border_radius=12&locale=pt-br" alt="Estatísticas do GitHub de João Pedro" />
+  <img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopedrolimadejesus95-beep&layout=compact&langs_count=6&hide_border=false&bg_color=0b0618&title_color=c084fc&text_color=e2e8f0&border_color=581c87&border_radius=12&locale=pt-br" alt="Linguagens mais usadas no GitHub" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=joaopedrolimadejesus95-beep&background=090A14&border=3B1F5E&stroke=3B1F5E&ring=F472B6&fire=F472B6&currStreakNum=F9A8D4&sideNums=E2E8F0&currStreakLabel=C084FC&sideLabels=CBD5E1&dates=94A3B8&border_radius=12&locale=pt_BR" alt="GitHub Streak de João Pedro" />
+  <img src="https://streak-stats.demolab.com/?user=joaopedrolimadejesus95-beep&background=0B0618&border=581C87&stroke=581C87&ring=A855F7&fire=F472B6&currStreakNum=F3E8FF&sideNums=E2E8F0&currStreakLabel=C084FC&sideLabels=CBD5E1&dates=94A3B8&border_radius=12&locale=pt_BR" alt="GitHub Streak de João Pedro" />
 </p>
 
 ---
@@ -138,12 +139,12 @@ Sou estudante de **Ciência da Computação na UTFPR** (Campo Mourão) e técnic
 <div align="center">
   <p>🌙 Feito sob a lua de sakura · aberto a novas conexões e oportunidades</p>
   <a href="https://joaopedrolimadejesus95-beep.github.io">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-Visitar-10B981?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio" />
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-Visitar-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio" />
   </a>
   <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-jesus-jpldj">
-    <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Conectar-9333EA?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:joaopedrolimajpldj@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-Enviar-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
+    <img src="https://img.shields.io/badge/E--mail-Enviar-EC4899?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
   </a>
 </div>

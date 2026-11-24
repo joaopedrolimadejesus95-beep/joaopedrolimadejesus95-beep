@@ -1,0 +1,565 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <style><![CDATA[
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace; }
+    ]]></style>
+
+    <linearGradient id="bgPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0618" />
+      <stop offset="50%" stop-color="#170B30" />
+      <stop offset="100%" stop-color="#27124C" />
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#9333EA" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="moonGlow" cx="85%" cy="24%" r="22%">
+      <stop offset="0%" stop-color="#E9D5FF" stop-opacity="0.32" />
+      <stop offset="45%" stop-color="#A855F7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="accentText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333EA" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#C084FC" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.7" />
+    </linearGradient>
+
+    <pattern id="dotGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#FFFFFF" fill-opacity="0.045" />
+    </pattern>
+  </defs>
+
+  <!-- Main Card Background -->
+  <rect width="1200" height="360" rx="18" fill="url(#bgPurple)" />
+  <rect width="1200" height="360" rx="18" fill="url(#dotGrid)" />
+  <rect width="1200" height="360" rx="18" fill="url(#centerGlow)" />
+  <rect width="1200" height="360" rx="18" fill="url(#moonGlow)" />
+
+  <!-- Twinkling Stars -->
+  <circle cx="381" cy="94" r="1.4" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.2s" begin="1.3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="414" cy="66" r="1.8" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" begin="1.6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="412" cy="182" r="1.8" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.8s" begin="1.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="95" cy="117" r="1.8" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.2s" begin="0.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="261" cy="96" r="1.1" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.5s" begin="2.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="767" cy="217" r="1.8" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.7s" begin="0.3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="49" cy="44" r="1.1" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.5s" begin="0.0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="492" cy="158" r="0.9" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.9s" begin="1.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="629" cy="66" r="1.4" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" begin="1.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="181" cy="183" r="1.4" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.0s" begin="1.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="300" cy="58" r="1.8" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.3s" begin="2.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="166" cy="185" r="0.9" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.9s" begin="2.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="739" cy="36" r="1.4" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.1s" begin="0.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="410" cy="18" r="1.1" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.3s" begin="2.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="450" cy="159" r="0.9" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.3s" begin="2.3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1160" cy="70" r="1.4" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.8s" begin="2.9s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="178" cy="22" r="1.8" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.3s" begin="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="735" cy="110" r="1.8" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="0.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="231" cy="53" r="1.4" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.4s" begin="0.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="878" cy="89" r="0.9" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.7s" begin="0.3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="748" cy="217" r="1.8" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" begin="0.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1059" cy="169" r="1.1" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.5s" begin="2.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="864" cy="117" r="1.4" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.9s" begin="0.3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1110" cy="129" r="1.4" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" begin="2.0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="790" cy="54" r="0.9" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" begin="3.0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="293" cy="41" r="1.8" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.9s" begin="2.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="771" cy="33" r="1.8" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.3s" begin="2.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="611" cy="190" r="1.8" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" begin="1.9s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="527" cy="119" r="1.4" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.5s" begin="1.0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="956" cy="185" r="1.8" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="2.0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="306" cy="105" r="1.1" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.5s" begin="2.0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1069" cy="84" r="1.4" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" begin="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="914" cy="138" r="1.8" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.1s" begin="1.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="92" cy="217" r="1.4" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.1s" begin="1.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="381" cy="70" r="1.4" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.3s" begin="2.1s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="748" cy="171" r="0.9" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" begin="2.9s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="667" cy="149" r="1.4" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" begin="0.9s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="372" cy="49" r="1.4" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.4s" begin="1.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="100" cy="209" r="1.8" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.5s" begin="1.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="122" cy="191" r="1.4" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.9s" begin="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="171" cy="12" r="1.1" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.0s" begin="2.7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="443" cy="190" r="0.9" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.1s" begin="0.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="341" cy="172" r="1.1" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.1s" begin="2.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="183" cy="144" r="1.8" fill="#FFFFFF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.8s" begin="0.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="186" cy="74" r="1.1" fill="#F3E8FF" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.6s" begin="0.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="120" cy="73" r="1.1" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="1.6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="594" cy="154" r="1.4" fill="#DDD6FE" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.3s" begin="2.3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="551" cy="89" r="1.8" fill="#FBCFE8" opacity="0.75">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.4s" begin="1.4s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Glowing Crescent Moon (Top Right, matching saimumfahad-dev reference) -->
+  <g>
+    <circle cx="1028" cy="86" r="56" fill="#C084FC" fill-opacity="0.12" />
+    <mask id="heroCrescent">
+      <rect x="960" y="20" width="140" height="140" fill="#000" />
+      <circle cx="1026" cy="84" r="38" fill="#FFF" />
+      <circle cx="1044" cy="74" r="31" fill="#000" />
+    </mask>
+    <circle cx="1026" cy="84" r="38" fill="#F3E8FF" mask="url(#heroCrescent)" />
+    <!-- Subtle moon crater shadows -->
+    <circle cx="1003" cy="92" r="4.2" fill="#D8B4FE" fill-opacity="0.55" />
+    <circle cx="1012" cy="107" r="2.6" fill="#D8B4FE" fill-opacity="0.45" />
+  </g>
+
+  <!-- Purple Clouds & City Skyline -->
+  <!-- Glowing Purple Horizon Clouds (behind buildings) -->
+  <g opacity="0.55">
+    <ellipse cx="140" cy="290" rx="220" ry="62" fill="#7E22CE" fill-opacity="0.32" />
+    <ellipse cx="290" cy="310" rx="190" ry="52" fill="#A855F7" fill-opacity="0.22" />
+    <ellipse cx="1050" cy="285" rx="240" ry="68" fill="#7E22CE" fill-opacity="0.34" />
+    <ellipse cx="890" cy="308" rx="190" ry="52" fill="#EC4899" fill-opacity="0.18" />
+    <ellipse cx="600" cy="332" rx="340" ry="42" fill="#6B21A8" fill-opacity="0.26" />
+  </g>
+
+  <!-- Stepped Purple City Skyline -->
+  <g>
+    <rect x="0" y="212" width="38" height="146" fill="#120826" />
+    <rect x="7" y="222" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="17" y="236" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="27" y="236" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="27" y="250" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.42" />
+    <rect x="7" y="264" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.6" />
+    <rect x="27" y="306" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.42" />
+    <rect x="36" y="259" width="30" height="99" fill="#1F0E3D" />
+    <rect x="53" y="283" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="43" y="297" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.42" />
+    <rect x="64" y="260" width="46" height="98" fill="#120826" />
+    <rect x="91" y="284" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="71" y="298" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.42" />
+    <rect x="81" y="298" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="108" y="266" width="38" height="92" fill="#180B32" />
+    <rect x="125" y="276" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="125" y="290" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.42" />
+    <rect x="125" y="304" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.42" />
+    <rect x="144" y="208" width="38" height="150" fill="#1F0E3D" />
+    <rect x="151" y="218" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="161" y="232" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="161" y="246" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.42" />
+    <rect x="171" y="260" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="161" y="288" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.42" />
+    <rect x="180" y="240" width="56" height="118" fill="#1F0E3D" />
+    <rect x="207" y="250" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="197" y="264" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="217" y="278" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="187" y="292" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="197" y="306" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="234" y="259" width="46" height="99" fill="#180B32" />
+    <rect x="251" y="269" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="261" y="269" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="251" y="297" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="241" y="311" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="261" y="311" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="278" y="211" width="30" height="147" fill="#1F0E3D" />
+    <rect x="295" y="235" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="295" y="263" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="285" y="277" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="285" y="291" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.42" />
+    <rect x="295" y="291" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.42" />
+    <rect x="285" y="305" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="306" y="252" width="38" height="106" fill="#180B32" />
+    <rect x="323" y="262" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="323" y="276" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="323" y="304" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="333" y="304" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="342" y="292" width="42" height="66" fill="#120826" />
+    <rect x="359" y="302" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="382" y="299" width="42" height="59" fill="#120826" />
+    <rect x="409" y="309" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="422" y="303" width="34" height="55" fill="#180B32" />
+    <rect x="454" y="292" width="50" height="66" fill="#1F0E3D" />
+    <rect x="471" y="302" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="502" y="302" width="34" height="56" fill="#120826" />
+    <rect x="534" y="289" width="50" height="69" fill="#120826" />
+    <rect x="541" y="299" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="551" y="299" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.42" />
+    <rect x="561" y="299" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="571" y="299" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="582" y="302" width="34" height="56" fill="#1F0E3D" />
+    <rect x="614" y="292" width="34" height="66" fill="#1F0E3D" />
+    <rect x="621" y="302" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="631" y="302" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.6" />
+    <rect x="646" y="301" width="42" height="57" fill="#120826" />
+    <rect x="653" y="311" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="673" y="311" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.42" />
+    <rect x="686" y="291" width="50" height="67" fill="#120826" />
+    <rect x="713" y="301" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="734" y="290" width="34" height="68" fill="#1F0E3D" />
+    <rect x="766" y="297" width="42" height="61" fill="#180B32" />
+    <rect x="773" y="307" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="806" y="301" width="34" height="57" fill="#120826" />
+    <rect x="838" y="293" width="50" height="65" fill="#180B32" />
+    <rect x="855" y="303" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="886" y="250" width="38" height="108" fill="#120826" />
+    <rect x="893" y="260" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.42" />
+    <rect x="913" y="260" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.6" />
+    <rect x="893" y="274" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.6" />
+    <rect x="893" y="288" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="913" y="288" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.42" />
+    <rect x="893" y="302" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.6" />
+    <rect x="913" y="302" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.6" />
+    <rect x="922" y="266" width="46" height="92" fill="#1F0E3D" />
+    <rect x="929" y="276" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.42" />
+    <rect x="939" y="276" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="929" y="290" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="939" y="290" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="939" y="304" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="966" y="258" width="56" height="100" fill="#180B32" />
+    <rect x="973" y="268" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.6" />
+    <rect x="973" y="282" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="993" y="282" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="1003" y="282" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="983" y="296" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+    <rect x="973" y="310" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="1003" y="310" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="1020" y="244" width="38" height="114" fill="#180B32" />
+    <rect x="1037" y="254" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="1027" y="282" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="1037" y="296" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.25" />
+    <rect x="1047" y="296" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="1027" y="310" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.6" />
+    <rect x="1037" y="310" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.6" />
+    <rect x="1056" y="256" width="56" height="102" fill="#120826" />
+    <rect x="1063" y="266" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="1073" y="280" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="1083" y="294" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.25" />
+    <rect x="1063" y="308" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.6" />
+    <rect x="1093" y="308" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.25" />
+    <rect x="1110" y="249" width="30" height="109" fill="#1F0E3D" />
+    <rect x="1117" y="259" width="4" height="6" rx="1" fill="#38BDF8" fill-opacity="0.42" />
+    <rect x="1117" y="301" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.42" />
+    <rect x="1138" y="238" width="38" height="120" fill="#1F0E3D" />
+    <rect x="1145" y="290" width="4" height="6" rx="1" fill="#F472B6" fill-opacity="0.6" />
+    <rect x="1174" y="260" width="38" height="98" fill="#1F0E3D" />
+    <rect x="1191" y="270" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.6" />
+    <rect x="1181" y="284" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.42" />
+    <rect x="1181" y="298" width="4" height="6" rx="1" fill="#C084FC" fill-opacity="0.6" />
+    <rect x="1201" y="298" width="4" height="6" rx="1" fill="#A78BFA" fill-opacity="0.25" />
+  </g>
+
+  <!-- Soft Translucent Mist Clouds over Skyline Base -->
+  <g opacity="0.42">
+    <ellipse cx="180" cy="328" rx="200" ry="34" fill="#9333EA" fill-opacity="0.35" />
+    <ellipse cx="1010" cy="326" rx="220" ry="36" fill="#A855F7" fill-opacity="0.32" />
+  </g>
+
+  <!-- Clean Moonlit Rooftop Ledge for the Walking Cat -->
+  <rect x="0" y="322" width="1200" height="38" fill="#090514" />
+  <rect x="0" y="322" width="1200" height="1.6" fill="#C084FC" fill-opacity="0.5" />
+
+  <!-- Centered Hero Typography (matching saimumfahad-dev symmetry) -->
+  <g>
+    <text x="600" y="64" text-anchor="middle" fill="#C084FC" class="font-mono" font-size="13" font-weight="600" letter-spacing="2">&lt; hello_world() &gt;</text>
+
+    <!-- Main Name flanked by neon vertical accent bars -->
+    <rect x="336" y="84" width="3.5" height="34" rx="1.75" fill="#A855F7" />
+    <rect x="860.5" y="84" width="3.5" height="34" rx="1.75" fill="#F472B6" />
+    <text x="600" y="114" text-anchor="middle" class="font-sans" font-size="42" font-weight="800" letter-spacing="2.2">
+      <tspan fill="#F8FAFC">JOÃO PEDRO </tspan><tspan fill="url(#accentText)">LIMA</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="144" text-anchor="middle" fill="#CBD5E1" class="font-mono" font-size="12.5" font-weight="600" letter-spacing="2.2">CIÊNCIA DA COMPUTAÇÃO @ UTFPR · BACKEND &amp; IA</text>
+
+    <!-- Row 1: Focus Pills -->
+    <rect x="252.8" y="172" width="155.6" height="30" rx="8" fill="#130A26" fill-opacity="0.88" stroke="#C084FC" stroke-opacity="0.5" stroke-width="1.1" />
+    <text x="330.6" y="191" text-anchor="middle" fill="#F1F5F9" class="font-mono" font-size="11.5" font-weight="600">&lt;/&gt; Backend &amp; APIs</text>
+    <rect x="420.4" y="172" width="162.8" height="30" rx="8" fill="#130A26" fill-opacity="0.88" stroke="#F472B6" stroke-opacity="0.5" stroke-width="1.1" />
+    <text x="501.8" y="191" text-anchor="middle" fill="#F1F5F9" class="font-mono" font-size="11.5" font-weight="600">⚡ IA Determinística</text>
+    <rect x="595.2" y="172" width="162.8" height="30" rx="8" fill="#130A26" fill-opacity="0.88" stroke="#A78BFA" stroke-opacity="0.5" stroke-width="1.1" />
+    <text x="676.6" y="191" text-anchor="middle" fill="#F1F5F9" class="font-mono" font-size="11.5" font-weight="600">🛡 AppSec &amp; Red Team</text>
+    <rect x="770.0" y="172" width="177.2" height="30" rx="8" fill="#130A26" fill-opacity="0.88" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1.1" />
+    <text x="858.6" y="191" text-anchor="middle" fill="#F1F5F9" class="font-mono" font-size="11.5" font-weight="600">⛁ PostgreSQL &amp; Docker</text>
+
+    <!-- Row 2: Tech Pills -->
+    <rect x="383.2" y="216" width="77.2" height="26" rx="7" fill="#0F0820" fill-opacity="0.92" stroke="#7C3AED" stroke-opacity="0.48" stroke-width="1" />
+    <text x="421.8" y="233" text-anchor="middle" fill="#DDD6FE" class="font-mono" font-size="11.5" font-weight="600">Node.js</text>
+    <rect x="470.4" y="216" width="100.0" height="26" rx="7" fill="#0F0820" fill-opacity="0.92" stroke="#7C3AED" stroke-opacity="0.48" stroke-width="1" />
+    <text x="520.4" y="233" text-anchor="middle" fill="#DDD6FE" class="font-mono" font-size="11.5" font-weight="600">TypeScript</text>
+    <rect x="580.4" y="216" width="69.6" height="26" rx="7" fill="#0F0820" fill-opacity="0.92" stroke="#7C3AED" stroke-opacity="0.48" stroke-width="1" />
+    <text x="615.2" y="233" text-anchor="middle" fill="#DDD6FE" class="font-mono" font-size="11.5" font-weight="600">Python</text>
+    <rect x="660.0" y="216" width="77.2" height="26" rx="7" fill="#0F0820" fill-opacity="0.92" stroke="#7C3AED" stroke-opacity="0.48" stroke-width="1" />
+    <text x="698.6" y="233" text-anchor="middle" fill="#DDD6FE" class="font-mono" font-size="11.5" font-weight="600">Java 21</text>
+    <rect x="747.2" y="216" width="69.6" height="26" rx="7" fill="#0F0820" fill-opacity="0.92" stroke="#7C3AED" stroke-opacity="0.48" stroke-width="1" />
+    <text x="782.0" y="233" text-anchor="middle" fill="#DDD6FE" class="font-mono" font-size="11.5" font-weight="600">Docker</text>
+  </g>
+
+  <!-- Subtle Falling Sakura Petals -->
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="312 -22" to="362 360" dur="8.5s" begin="-10.9s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F9A8D4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="345" dur="5.5s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="877 3" to="845 360" dur="9.7s" begin="-5.3s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#FBCFE8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="283" dur="6.3s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="576 -18" to="573 360" dur="11.8s" begin="-10.5s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#FBCFE8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="358" dur="7.7s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="821 14" to="867 360" dur="12.8s" begin="-6.9s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#FBCFE8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="250" dur="8.3s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="443 -16" to="414 360" dur="7.0s" begin="-0.2s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F472B6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="266" dur="4.5s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="974 -3" to="994 360" dur="11.3s" begin="-4.1s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F472B6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="350" dur="7.3s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="752 -7" to="698 360" dur="11.6s" begin="-5.9s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F9A8D4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="272" dur="7.5s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="925 -11" to="933 360" dur="10.7s" begin="-10.4s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F472B6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="342" dur="7.0s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="284 7" to="319 360" dur="11.8s" begin="-6.4s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F9A8D4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="134" dur="7.7s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="636 -14" to="634 360" dur="11.8s" begin="-6.3s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#E879F9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="165" dur="7.7s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="619 -15" to="684 360" dur="8.1s" begin="-7.9s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#E879F9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="289" dur="5.3s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="883 -12" to="835 360" dur="10.4s" begin="-1.5s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F472B6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="141" dur="6.8s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="976 -29" to="951 360" dur="7.7s" begin="-2.5s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F9A8D4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="287" dur="5.0s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+  <g opacity="0.65">
+    <animateTransform attributeName="transform" type="translate" from="908 -29" to="967 360" dur="11.8s" begin="-10.1s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="0" rx="3.2" ry="1.7" fill="#F472B6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="221" dur="7.7s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+
+  <!-- Smooth Animated Vector Black Cat Walking Along the Skyline Ledge -->
+  <g transform="translate(0, 279)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="-80 0" to="1240 0" dur="16s" begin="-5.5s" repeatCount="indefinite" />
+      <g transform="scale(0.76)">
+        <!-- Soft moonlight shadow beneath paws -->
+        <ellipse cx="42" cy="58" rx="23" ry="3.2" fill="#000000" fill-opacity="0.55" />
+
+        <!-- Delicate glowing sakura petal / firefly bobbing ahead of the cat -->
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 3,-4; 0,-1; -2,-5; 0,0" dur="1.9s" repeatCount="indefinite" />
+          <circle cx="92" cy="24" r="4.5" fill="#F472B6" fill-opacity="0.28" />
+          <ellipse cx="92" cy="24" rx="2.8" ry="1.6" transform="rotate(-25 92 24)" fill="#F9A8D4" />
+        </g>
+
+        <!-- Back-far leg (behind body) -->
+        <g opacity="0.78">
+          <animateTransform attributeName="transform" type="rotate" values="-20 24 41; 20 24 41; -20 24 41" dur="0.72s" repeatCount="indefinite" />
+          <path d="M 22 40 L 18 55 Q 18 58 23 58 L 25 56 L 26 41 Z" fill="#06040C" stroke="#7E22CE" stroke-width="1.2" stroke-linejoin="round" />
+        </g>
+
+        <!-- Front-far leg (behind body) -->
+        <g opacity="0.78">
+          <animateTransform attributeName="transform" type="rotate" values="20 53 41; -20 53 41; 20 53 41" dur="0.72s" repeatCount="indefinite" />
+          <path d="M 51 40 L 53 55 Q 53 58 58 58 L 59 56 L 55 40 Z" fill="#06040C" stroke="#7E22CE" stroke-width="1.2" stroke-linejoin="round" />
+        </g>
+
+        <!-- Torso + Tail + Head (subtle walking bob) -->
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1.6; 0,0" dur="0.36s" repeatCount="indefinite" />
+
+          <!-- Gracefully swishing S-curved tail (outer glow stroke + inner black fill) -->
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-10 21 35; 12 21 35; -10 21 35" dur="1.44s" repeatCount="indefinite" />
+            <path d="M 21 35 C 11 33, 5 23, 9 13 C 11 7, 16 6, 18 9" fill="none" stroke="#A855F7" stroke-opacity="0.85" stroke-width="6.4" stroke-linecap="round" />
+            <path d="M 21 35 C 11 33, 5 23, 9 13 C 11 7, 16 6, 18 9" fill="none" stroke="#080610" stroke-width="4.2" stroke-linecap="round" />
+          </g>
+
+          <!-- Sleek feline body -->
+          <path d="M 20 38 C 19 32, 26 29, 39 29 C 49 29, 55 30, 59 34 C 62 38, 61 44, 54 45 C 45 46, 30 46, 22 44 C 19 43, 19 40, 20 38 Z" fill="#080610" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.4" />
+
+          <!-- Back-near leg -->
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="20 27 41; -20 27 41; 20 27 41" dur="0.72s" repeatCount="indefinite" />
+            <path d="M 25 40 L 23 55 Q 23 58 28 58 L 30 56 L 29 40 Z" fill="#080610" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.3" stroke-linejoin="round" />
+          </g>
+
+          <!-- Front-near leg -->
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-20 55 41; 20 55 41; -20 55 41" dur="0.72s" repeatCount="indefinite" />
+            <path d="M 53 40 L 55 55 Q 55 58 60 58 L 61 56 L 57 40 Z" fill="#080610" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.3" stroke-linejoin="round" />
+          </g>
+
+          <!-- Sakura pink collar + tiny golden bell -->
+          <path d="M 55 31 Q 60 33 63 31" fill="none" stroke="#F472B6" stroke-width="2.2" stroke-linecap="round" />
+          <circle cx="62.5" cy="34" r="2.1" fill="#FDE047" />
+
+          <!-- Head + Pointy Ears -->
+          <g>
+            <!-- Back ear -->
+            <path d="M 55 16 L 53 4 L 62 13 Z" fill="#080610" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.3" stroke-linejoin="round" />
+            <path d="M 55.5 14 L 54.6 7.5 L 60 12.8 Z" fill="#F472B6" fill-opacity="0.85" />
+
+            <!-- Head oval -->
+            <ellipse cx="63.5" cy="22.5" rx="10.8" ry="9.4" fill="#080610" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.4" />
+
+            <!-- Front ear -->
+            <path d="M 64 13.5 L 68.5 3 L 72.5 15 Z" fill="#080610" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.3" stroke-linejoin="round" />
+            <path d="M 65.5 13 L 68.2 6.5 L 70.6 14 Z" fill="#F472B6" fill-opacity="0.85" />
+
+            <!-- Glowing golden eyes + pupils + catchlight -->
+            <ellipse cx="64.5" cy="22" rx="1.9" ry="2.3" fill="#FDE047" />
+            <ellipse cx="70.2" cy="22" rx="1.9" ry="2.3" fill="#FDE047" />
+            <ellipse cx="64.7" cy="22" rx="0.6" ry="1.5" fill="#080610" />
+            <ellipse cx="70.4" cy="22" rx="0.6" ry="1.5" fill="#080610" />
+            <circle cx="64" cy="21.1" r="0.55" fill="#FFFFFF" />
+            <circle cx="69.7" cy="21.1" r="0.55" fill="#FFFFFF" />
+
+            <!-- Tiny pink nose & whiskers -->
+            <polygon points="72.4,24.8 74,24.8 73.2,26" fill="#F472B6" />
+            <path d="M 73.5 25.5 Q 78 24.5 81 25" fill="none" stroke="#C084FC" stroke-opacity="0.65" stroke-width="0.7" />
+            <path d="M 73.5 26.8 Q 78 27 80.5 28.2" fill="none" stroke="#C084FC" stroke-opacity="0.65" stroke-width="0.7" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Neon Purple-Pink Card Border -->
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="17" fill="none" stroke="url(#borderGrad)" stroke-width="1.8" />
+</svg>
